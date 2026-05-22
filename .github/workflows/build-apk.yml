@@ -33,7 +33,7 @@ jobs:
       - name: Build Debug APK
         run: ./gradlew assembleDebug --stacktrace --no-daemon
         env:
-          GRADLE_OPTS: "-Dorg.gradle.jvmargs=-Xmx4g -Dkotlin.incremental=false"
+          GRADLE_OPTS: "-Djava.awt.headless=true -Dorg.gradle.jvmargs=-Xmx4g -Djava.awt.headless=true -Dkotlin.incremental=false"
 
       - name: Upload APK
         uses: actions/upload-artifact@v4
