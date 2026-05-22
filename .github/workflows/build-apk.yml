@@ -28,7 +28,7 @@ jobs:
       # gradlew নেই, তাই system gradle দিয়ে তৈরি করব
       - name: Generate Gradle Wrapper
         run: |
-          gradle wrapper --gradle-version=8.11.1 --distribution-type=bin
+          gradle wrapper --gradle-version=9.3.1 --distribution-type=bin
           chmod +x gradlew
           ls -la gradlew   # confirm হলো কিনা দেখতে
 
