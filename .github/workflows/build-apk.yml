@@ -23,7 +23,7 @@ jobs:
           distribution: 'temurin'
 
       - name: Create .env file
-        run: echo "GEMINI_API_KEY=${{ secrets.GEMINI_API_KEY }}" > .env
+        run: echo "GEMINI_API_KEY=dummy_not_used" > .env
 
       - name: Generate Gradle Wrapper
         run: |
