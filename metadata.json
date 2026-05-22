@@ -1,0 +1,6 @@
+{
+  "name": "ধূমপানমুক্ত জীবন",
+  "description": "ধূমপানমুক্ত জীবন (Smoke-Free Life) — একটি সুন্দর ও আধুনিক ধূমপান নিরাময় অ্যাপ",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
